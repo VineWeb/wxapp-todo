@@ -1,0 +1,74 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {}
+		},
+		{
+			"path": "pages/home/index",
+			"style": {}
+		},
+		{
+			"path": "pages/me/index",
+			"style": {}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "墨香待办",
+		"navigationBarBackgroundColor": "#a25158",
+		"backgroundColor": "#a25158",
+		"fontSize": "14px",
+		"usingComponents": {
+			"van-action-sheet": "wxcomponents/action-sheet/index",
+			"van-area": "wxcomponents/area/index",
+			"van-button": "wxcomponents/button/index",
+			"van-calendar": "wxcomponents/calendar/index",
+			"van-card": "wxcomponents/card/index",
+			"van-cell": "wxcomponents/cell/index",
+			"van-cell-group": "wxcomponents/cell-group/index",
+			"van-checkbox": "wxcomponents/checkbox/index",
+			"van-checkbox-group": "wxcomponents/checkbox-group/index",
+			"van-circle": "wxcomponents/circle/index",
+			"van-col": "wxcomponents/col/index",
+			"van-collapse": "wxcomponents/collapse/index",
+			"van-dialog": "wxcomponents/dialog/index",
+			"van-divider": "wxcomponents/divider/index",
+			"van-empty": "wxcomponents/empty/index",
+			"van-icon": "wxcomponents/icon/index",
+			"van-notify": "wxcomponents/notify/index",
+			"van-picker": "wxcomponents/picker/index",
+			"van-tab": "wxcomponents/tab/index",
+			"van-tabbar": "wxcomponents/tabbar/index",
+			"van-tabbar-item": "wxcomponents/tabbar-item/index",
+			"van-toast": "wxcomponents/toast/index",
+			"van-nav-bar": "wxcomponents/nav-bar/index",
+			"van-popup": "wxcomponents/popup/index",
+			"van-index-anchor": "wxcomponents/index-anchor/index"
+		}
+	},
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#fd9902",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"height": "50px",
+		"fontSize": "16px",
+		"iconWidth": "24px",
+		"spacing": "3px",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/home.png",
+				"selectedIconPath": "static/icon/home-active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/me/index",
+				"iconPath": "static/icon/my.png",
+				"selectedIconPath": "static/icon/my-active.png",
+				"text": "我的"
+			}
+		]
+	}
+}
