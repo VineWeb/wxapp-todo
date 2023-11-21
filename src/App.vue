@@ -11,6 +11,6 @@ onHide(() => {
 });
 </script>
 <style>
-@import './wxcomponents/common/index.wxss';
-@import "./styles/font/iconfont.wxss";
+
+@import './styles/index.scss';
 </style>

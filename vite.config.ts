@@ -8,9 +8,6 @@ export default defineConfig(({ mode }) => {
   return {
     plugins: [
       uni(),
-      // Components({
-      //   resolvers: [VantResolver()],
-      // }),
     ],
     resolve: {
       extensions: ['.ts', '.js', '.jsx', '.tsx', '.scss', '.vue'],

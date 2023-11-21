@@ -1,15 +1,19 @@
 <template>
-  <view class="content">
-    <image class="logo" src="/static/logo.png" />
-    <view class="text-area">
-      <text class="title">{{ title }}</text>
-    </view>
-  </view>
+	<view class="container">
+    <mp-icon icon="add" color="black" size="{{25}}"></mp-icon> 
+    <div>测试</div>
+	</view>
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue'
-const title = ref('Hello')
+const cover = ref('https://qiniu-web-assets.dcloud.net.cn/unidoc/zh/shuijiao.jpg')
+const avatar = ref('https://qiniu-web-assets.dcloud.net.cn/unidoc/zh/shuijiao.jpg')
+const extraIcon = ref({
+  color: '#4cd964',
+  size: '22',
+  type: 'gear-filled'
+})
 </script>
 
 <style>
